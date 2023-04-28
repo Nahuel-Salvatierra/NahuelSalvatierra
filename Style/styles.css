@@ -1,59 +1,75 @@
-.col{
-    background-color:blanchedalmond;
-    color: black;
-    border-style: solid;
-    border:black;
+.col {
+  background-color: blanchedalmond;
+  color: black;
+  border-style: solid;
+  border: black;
 }
-body{
-    margin-top: 70px;
+
+body {
+  margin-top: 70px;
 }
-#perfil
-{
-    border-radius: 50%;
-    border-style: solid;
-    border-color: white;
-    margin: 0 0 2rem 0;
-    border-image-outset: 10px;
+
+#perfil {
+  width: 100%;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  margin: 0 0 2rem 0;
+  border-image-outset: 10px;
+  object-fit: cover;
 }
-#saludo
-{
-    text-align: center;
-    color: #00001a;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.8em;
-    
+
+#saludo {
+  text-align: center;
+  color: whire;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
 }
-#description-proyect
-{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
-    text-align: center;
-    font-weight:bold;
-    justify-content: center;
+
+#description-proyect {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  text-align: center;
+  font-weight: bold;
+  justify-content: center;
 }
-.arte
-{
-    background-color: #dffbff;
-    padding: ;
-    border: solid #00001a;
-    color: #00001a;
+
+.arte {
+  background-color: #e2e2e2;
+  padding: 10px;
+  border: solid #00001a;
+  color: #00001a;
+  text-align: left;
 }
-.ulfondo
-{
-    background-color: aliceblue;
-    border-radius: 30%;
-    display: flex;
-    white-space: nowrap;
+
+.ulfondo {
+  background-color: aliceblue;
+  border-radius: 30%;
+  display: flex;
+  white-space: nowrap;
 }
-.navbar
-{
-    background-color: #1f1f1f;
-    color: white;
+
+.navbar {
+  background-color: #1f1f1f;
+  color: white;
 }
-.nav-item a, .navbar a{
-    color:white;
+
+.nav-item a,
+.navbar a {
+  color: white;
 }
-.recolor{
-    background-color: #1f1f1f;
-    color: white;
+
+.recolor {
+  background-color: #1f1f1f;
+  color: white;
 }
+.frase {
+  color: white;
+  font-size: 0.5rem;
+  font-style: italic;
+  text-align: center;
+}
+
+
+
+
