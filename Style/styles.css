@@ -40,6 +40,7 @@ body {
   border: solid #00001a;
   color: #00001a;
   text-align: left;
+  transition: transform 0.2s ease-in-out;
 }
 
 .ulfondo {
@@ -69,6 +70,40 @@ body {
   font-style: italic;
   text-align: center;
 }
+a {
+  text-decoration: none;
+  display:contents;
+  width: auto;
+  color: #1f1f1f;
+  height: auto;
+  padding: 0 ;
+  margin: 0;
+}
+  a:active {
+  text-decoration: none;
+  display:contents;
+  width: auto;
+  color: #1f1f1f;
+  height: auto;
+  padding: 0 ;
+  margin: 0;
+  }
+
+a:hover {
+  color: #EE0000; /* Cambia este valor al color que desees para los enlaces al pasar el mouse */
+}
+
+.arte:hover {
+  transform: scale(1.05);
+  background-color: #e2e2e2;
+  padding: 10px;
+  border: solid #00001a;
+  color: #00001a;
+  text-align: left;
+  
+}
+
+
 
 
 
