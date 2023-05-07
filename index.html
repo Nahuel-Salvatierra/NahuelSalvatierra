@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="Es">
 
 <head>
   <meta charset="UTF-8" />
@@ -8,6 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
   <link rel="stylesheet" href="./Style/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <title>Portfolio Nahuel Salvatierra</title>
 </head>
 <header>
@@ -24,25 +25,6 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#"><span class="recolor">Home</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu recolor">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
         </ul>
 
       </div>
@@ -55,67 +37,109 @@
     <section>
       <div class="container-fluid">
         <div class="row d-flex">
-          <!-- Columna lateral izquierda que se oculta  -->
+          <!-- Contenedor de imagen  -->
           <div class="col-3 d-none d-sm-block">
             <div class="contenedor">
               <img src="https://i.postimg.cc/90F3gY8P/icono-perfil.png" id="perfil" class="img-fluid mx-auto">
             </div>
             <p class="col-12 " id="saludo">
-              Hola mi nombre es Nahuel y estoy estudiando programacion!
+              Mi nombre es Nahuel y estoy estudiando programacion!
             </p>
             <p class="frase">
               "¿Qué mejor motivo para hacerlo, si te da la posibilidad de cumplir un sueño?"
             </p>
           </div>
+          <!-- Contenedor de proyectos -->
           <div class="col-12 col-sm-9">
             <div class="col-12 recolor">
               <p id="description-proyect">
-                Este es un proyecto personal donde colocare mis conocimientos y habilidades puestas en marcha!
+                Este es un proyecto personal donde colocare mis conocimientos y habilidades puestas en acción!
               </p>
             </div>
-            <div class="col-12 d-flex">
-              <a href='https://nahuel-salvatierra.github.io/Calculadora/'>
-              <div class="col-4 arte">
-                <h4>
-                  Calculadora simple
-                </h4>
-                <p>
-                  Una calculadora con botones como interfaz! Aun esta en construcción.
-                </p>
-              </div></a>
-              <div class="col-4 arte">
-                <h4>
-                  Coladera de palindromos
-                </h4>
-                <p>
-                  Puedes agregar lo que quieras! Simbolos, numeros, espacios, mayusculas, que solo analizara las letras!
-                </p>
-              </div>
-              <div class="col-4 arte">
-                <h4>
-                  Pomodoro (codeando)
-                </h4>
-                <p>
-                  La idea es tener un contador en cuenta regresiva, asignandole tanto tiempo de
-                  trabajo como tiempo de descanso. La utilidad de la interfaz y algunas frases de
-                  autores para inspirarte a seguir trabajando.
-                </p>
-              </div>
+            <div class="row row-col-sm-1 row-col-xl-3 p-3 column-gap-3 row-gap-3">
+              <a href='https://nahuel-salvatierra.github.io/Calculadora/' target="_blank">
+                <div class="col-sm-11 col-md-5  arte">
+                  <h4>
+                    Calculadora simple
+                  </h4>
+                  <p>
+                    Una calculadora con botones como interfaz! Aun esta en construcción.
+                  </p>
+                </div>
+              </a>
+              <a href="https://nahuel-salvatierra.github.io/Palindromo-Check/" target="_blank">
+                <div class="col-sm-11 col-md-5 arte">
+                  <h4>
+                    Palindromo Checker
+                  </h4>
+                  <p>
+                    Puedes agregar lo que quieras! Simbolos, numeros, espacios, mayusculas, que solo analizara las
+                    letras!
+                  </p>
+                </div>
+              </a>
+              <a href="https://nahuel-salvatierra.github.io/Pomodoro/" target="_blank">
+                <div class="col-sm-11 col-md-5  arte">
+                  <h4>
+                    Pomodoro
+                  </h4>
+                  <p>
+                    Es un contador en cuenta regresiva, asignándole tanto tiempo de trabajo como tiempo de descanso.
+                    Aun está en una etapa muy verde de su totalidad.
+                  </p>
+                </div>
+              </a>
+              <a href="https://nahuel-salvatierra.github.io/Popular-peliculas-page/" target="_blank">
+                <div class="col-sm-11 col-md-5  arte">
+                  <h4>
+                    Lista de tareas
+                  </h4>
+                  <p>
+                    Una scrip para crear una lista de tareas y una vez completa darle clic como completa.
+                  </p>
+                </div>
+              </a>
+              <a href="https://nahuel-salvatierra.github.io/Popular-peliculas-page/" target="_blank">
+                <div class="col-sm-11 col-md-5  arte">
+                  <h4>
+                    Peliculas mas populares
+                  </h4>
+                  <p>
+                    Es una página web donde se encuentran actualizadas las películas mas populares en la semana
+                  </p>
+                </div>
+              </a>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <div class="clase">asdf</div>
-    <div class="clase1">asdf</div>
-    <div class="clase2">asdf</div>
-    <div class="clase3">asdf</div>
-    <div class="clase4">asdf</div>
-    <div class="clase5">asdf</div>
   </main>
+  <footer class="container text-center">
+    <ul class="list-unstyled list-inline">
+      <li class="list-inline-item">
+        <a href="https://www.facebook.com/NahuelPunky/" target="_blank" class="">
+          <i class="bi bi-facebook"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://www.linkedin.com/in/nahuel-salvatierra-87b264275/" target="_blank" class="">
+          <i class="bi bi-linkedin"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a href="" class="">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
 </body>
+
+  
+
 
 </html>

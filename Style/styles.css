@@ -1,12 +1,10 @@
 .col {
   background-color: blanchedalmond;
   color: black;
-  border-style: solid;
-  border: black;
 }
 
 body {
-  margin-top: 70px;
+  margin-top: 80px;
 }
 
 #perfil {
@@ -23,7 +21,7 @@ body {
   text-align: center;
   color: whire;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 #description-proyect {
@@ -36,11 +34,12 @@ body {
 
 .arte {
   background-color: #e2e2e2;
+  border-radius: 10px;
   padding: 10px;
-  border: solid #00001a;
   color: #00001a;
   text-align: left;
   transition: transform 0.2s ease-in-out;
+
 }
 
 .ulfondo {
@@ -66,18 +65,15 @@ body {
 }
 .frase {
   color: white;
-  font-size: 0.7rem;
+  font-size: 1rem;
   font-style: italic;
   text-align: center;
 }
 a {
-  text-decoration: none;
   display:contents;
-  width: auto;
-  color: #1f1f1f;
-  height: auto;
-  padding: 0 ;
-  margin: 0;
+  color: none;
+  text-decoration: none;
+  color: #e2e2e2;
 }
   a:active {
   text-decoration: none;
@@ -90,17 +86,23 @@ a {
   }
 
 a:hover {
-  color: #EE0000; /* Cambia este valor al color que desees para los enlaces al pasar el mouse */
+  color: #ffffeb; 
+  text-decoration: none;
 }
 
 .arte:hover {
   transform: scale(1.05);
   background-color: #e2e2e2;
   padding: 10px;
-  border: solid #00001a;
   color: #00001a;
   text-align: left;
+  text-decoration: none;
   
+}
+li{
+  color:white;
+  font-size: 30px;
+  margin: 0 20px;
 }
 
 
